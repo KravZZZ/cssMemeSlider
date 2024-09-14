@@ -3,37 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>cssMemeSlider</title>
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <section class="main">
-    <input type="radio" name="point" id="slide1" checked>
-    <input type="radio" name="point" id="slide2">
-    <input type="radio" name="point" id="slide3">
-    <input type="radio" name="point" id="slide4">
-    <input type="radio" name="point" id="slide5">
-    <div class="slider">
-      <div class="slide slide1"></div>
-      <div class="slide slide2"></div>
-      <div class="slide slide3"></div>
-      <div class="slide slide4"></div>
-      <div class="slide slide5"></div>
-    </div>
-    <div class="controls">
-      <label for="slide1" class="control control1"></label>
-      <label for="slide2" class="control control1"></label>
-      <label for="slide3" class="control control1"></label>
-      <label for="slide4" class="control control1"></label>
-      <label for="slide5" class="control control1"></label>
+  <div class="wrapper">
+    <div class="sliders">
+      <div class="slide slide-1" id="slide-1"></div>
+      <div class="slide slide-2" id="slide-2"></div>
+      <div class="slide slide-3" id="slide-3"></div>
+      <div class="slide slide-4" id="slide-4"></div>
+      <div class="slide slide-5" id="slide-5"></div>
     </div>
     <div class="captions">
-      <label for="slide1" class="caption caption1" id="caption-1"><h2>After a hard week of work</h2></label>
-      <label for="slide2" class="caption caption2" id="caption-1"><h2>This is Sparta!</h2></label>
-      <label for="slide3" class="caption caption3" id="caption-1"><h2>What are you doing here?</h2></label>
-      <label for="slide4" class="caption caption4" id="caption-1"><h2>I'll definitely start tomorrow</h2></label>
-      <label for="slide5" class="caption caption5" id="caption-1"><h2>Beautiful life</h2></label>
+      <h2 class="caption caption-1" id="caption-1">After a hard week of work</h2>
+      <h2 class="caption caption-2" id="caption-1">This is Sparta!</h2>
+      <h2 class="caption caption-3" id="caption-1">What are you doing here?</h2>
+      <h2 class="caption caption-4" id="caption-1">I'll definitely start tomorrow</h2>
+      <h2 class="caption caption-5" id="caption-1">Beautiful life</h2>
     </div>
-  </section>
+    <div class="controls">
+      <a href="#slide-1"><div class="control"></div></a>
+      <a href="#slide-2"><div class="control"></div></a>
+      <a href="#slide-3"><div class="control"></div></a>
+      <a href="#slide-4"><div class="control"></div></a>
+      <a href="#slide-5"><div class="control"></div></a>
+    </div>
+  </div>
 </body>
 </html>
